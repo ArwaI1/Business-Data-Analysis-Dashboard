@@ -1,0 +1,54 @@
+
+body {
+  background-color: #cbc9dd;
+}
+
+
+#barchart {
+  width: 330px;
+  height: 300PX ;
+  border-radius: 15px;
+  background-color: antiquewhite;
+}
+#piechart {
+  width: 600px;
+  height: 290PX ;
+  border-radius: 15px;
+  background-color: antiquewhite;
+
+}
+#scatterplot {
+  width: 330px;
+  height: 290PX ;
+  border-radius: 15px;
+  background-color: antiquewhite;
+
+}
+#linechart{
+  width: 600px;
+  height: 290PX ;
+  border-radius: 15px;
+  background-color: antiquewhite;
+}
+
+#donutchart{
+  width: 330px;
+  height: 290PX ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  background-color: antiquewhite;
+}
+
+#humanchart{
+  width: 330px;
+  height: 290PX ;
+  border-radius: 15px;
+  background-color: antiquewhite;
+}
+main{
+  display: grid;
+  grid-template-columns: repeat(3,2fr);
+  Gap: 15px
+}
